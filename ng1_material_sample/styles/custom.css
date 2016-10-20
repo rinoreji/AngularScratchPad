@@ -1,0 +1,428 @@
+html{
+    height: auto;
+}
+.clear{
+    clear:both;
+}
+.spacer15{
+    height:15px;
+}
+.spacer18{
+    height:18px;
+}
+.spacer20{
+    height:20px;
+}
+.spacer40{
+    height:40px;
+}
+.spacer50{
+    height:50px;
+}
+.mg-top-0{
+    margin-top: 0 !important;
+}
+.mg-btm-0{
+    margin-bottom: 0 !important;
+}
+.pd-top-0{
+    padding-top: 0 !important;
+}
+.form-btn-wrap input{
+    margin-left: 15px;
+}
+.btn-delete {
+    background-color: #ED5E68;
+    border-color: #ED5E68;
+    color: #fff;
+}
+.label-align-inline{
+    padding-top: 3px;
+}
+.cus-border-hor{
+    border-top: 1px solid #eee;
+    margin-top: 30px;
+}
+.cus-border-hor-cen{
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.top-bar {
+    height: 64px;
+    visibility: hidden;
+    background-color: #efefef;
+    border-bottom: 1px solid #c2c2c4;
+}
+.top-bar .top-select-box{
+    margin-right: 50px;
+}
+.body-wide .top-bar{
+    visibility: visible;
+}
+md-select.md-default-theme .md-select-value.md-select-placeholder,
+md-select .md-select-value.md-select-placeholder {
+    color: #666;
+}
+.logo-wrap{
+    float: left;
+    font-size: 26px;
+    padding: 12px 20px;
+}
+.pl-form-select .md-select-value .md-text{
+    margin-left: 10px;
+}
+.page-signup.cus-signup3 .wrapper{
+    margin-top: 0px;
+}
+.page-signup.cus-signup3 .main-body{
+    margin: 10px auto;
+    max-width: 750px;
+}
+.card.custom-card1 .card-image .card-title{
+    bottom: 5px;
+    font-size: 21px;
+}
+.card.custom-card1 .card-content .card-profile-img-wrap{
+    float: right;
+    margin-top: -40px;
+}
+.card.custom-card1 .card-content .card-profile-img {
+    height: 40px;
+    width: 40px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+.card.custom-card1 .card-content .card-profile-img img {
+    height: 30px;
+    width: 30px;
+}
+.card.custom-card1 .card-image {
+    max-height: 270px;
+    overflow: hidden;
+}
+.card.custom-card1 .card-image .pro-img-round{
+    height: 120px;
+    width: 120px;
+    margin: 20px auto 0;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #fafafa;
+}
+.card.custom-card1 .company-pro-img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 65px;
+    left: 22px;
+    background-color: #fff;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.carousel-control.left,
+.carousel-control.right{
+    background: none;
+}
+.panel.carousel-panel .panel-heading h3{
+    margin-left: 43px;
+}
+.panel.carousel-panel h3{
+    text-transform: uppercase;
+}
+.panel.carousel-panel .panel-body,
+.panel.carousel-panel .panel-footer{
+    padding: 15px 45px;
+}
+.panel.carousel-panel .panel-body .row.carousel-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.panel.carousel-panel .panel-body .fa-arrow-left.slider-left{
+    color: #262B33;
+    position: absolute;
+    top:50%;
+    left: -25px;
+}
+.panel.carousel-panel .panel-body .fa-arrow-right.slider-right{
+    color: #262B33;
+    position: absolute;
+    top:50%;
+    right: -25px;
+}
+.panel.carousel-panel .carousel-control{
+    width: auto;
+}
+.panel.carousel-panel .panel-body .rating-arrow{
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+    color: #8BC34A;
+}
+.top-bar-rate{
+    float: right;
+    margin-right: 40px;
+    margin-top: 12px;
+}
+.top-bar-rate .upgrade-btn{
+    color: #fff;
+    background-color: #00BCD4;
+}
+.top-bar-rate .upgrade-btn:hover{
+    background-color: #0090a8;
+}
+.app > .main-container > .content-container{
+    /*    float: right;*/
+}
+.app > .main-container{
+    float: left;
+    width: 100%;
+    top: -6px;
+}
+.panel-heading h3{
+    margin: 0;
+}
+.team-panel .row:last-child .cus-border-hor,
+.patners-panel .row:last-child .cus-border-hor,
+.team-panel .row:last-child .cus-border-hor-cen,
+.patners-panel .row:last-child .cus-border-hor-cen{
+    visibility: hidden;
+}
+.team-row{
+    margin: 30px 0 0 0;
+    position: relative;
+}
+.team-row .team-pro-img{
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.team-row .team-row-details{
+    float: left;
+    margin-left: 15px;
+}
+.team-row .accept-remove-wrap{
+    background: #f9f9f9;
+    bottom: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35px;
+}
+.team-row .icon-accept{
+    position: absolute;
+    right: 6px;
+    top: 40%;
+    color: #8BC34A;
+    font-size: 22px;
+    cursor: pointer;
+}
+.team-row .icon-remove{
+    position: absolute;
+    right: 9px;
+    top: 40%;
+    font-size: 22px;
+    color: #D32F2F;
+    cursor: pointer;
+}
+#team-modal{
+    z-index: 1050;
+}
+#team-modal .modal-footer,
+#team-modal .modal-header{
+    border: none;
+}
+.team-row .partner-row-btn-wrap .partner-row-btn{
+    font-size: 10px;
+    min-height: 0;
+    min-width: 0;
+    padding: 3px 10px;
+    margin-top: 10px;
+}
+.team-row .partner-row-btn-wrap .partner-row-btn:first-child{
+    margin-right: 5px;
+}
+.copy-link-btn .form-control{
+    background-color: #fafafa;
+    border: none;
+}
+.copy-link-btn .btn-default{
+    padding: 9px 12px;
+    border:none;
+    background-color: #e5e5e5;
+}
+.patners-panel .row:first-child .team-row{
+    margin-top: 0;
+}
+.callout.cus-breadcrumb{
+    margin: 0 1px 10px;
+    padding: 5px 20px;
+}
+.card .card-content p.sub-head{
+    margin: 0 0 10px;
+}
+.my-projects-row .comp-logo{
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-color: #fafafa;
+}
+.my-projects-row .comp-name{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+}
+.my-projects-row .user-pro-img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    background-color: #fafafa;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.my-projects-row .user-pro-img-count{
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: table;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #939393;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.my-projects-row .rating-img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #fafafa;
+}
+.my-projects-row .user-pro-img-count span{
+    display: table-cell;
+    font-size: 21px;
+    color: #fff;
+    vertical-align: middle;
+}
+.my-projects-ratings{
+    float: right;
+    margin-top: 60px;
+}
+.personal-pro-img-wrap{
+    display: inline-block;
+    text-align: center;
+}
+.personal-pro-img-wrap .personal-pro-img{
+    width: 200px;
+    height: 200px;
+    background-color: #fafafa;
+}
+.personal-pro-img-wrap .upload-img{
+    display: block;
+    margin-top: 5px;
+}
+.c-password-btn,
+.c-company-btn{
+    cursor: pointer;
+    color: #009688;
+}
+.c-password-btn:hover{
+    color: #004a43;
+}
+.cus-checkbox-wrap p{
+    margin-bottom: 0;
+}
+.pl-form-select-signup select{
+	height: 38px;
+	margin-top: 22px;
+	width: 100%;
+}
+.signup-chkbox-text{
+	display:inline;
+	margin-left:5px!important;
+}
+/*** DIRECT OVERRIDE ***/
+.card .card-image .card-title{
+    color: #959595;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+.row.profile-image-wrap{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.password-wrap md-input-container .md-errors-spacer,
+.company-wrap md-input-container .md-errors-spacer{
+    min-height: 0px;
+}
+.form-group.password-wrap,
+.form-group.company-wrap{
+    margin-bottom: 0;
+}
+.c-password-panel{
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+}
+/*** DIRECT OVERRIDE END ***/
+@media screen and (max-width:768px){
+    .app > .main-container > .content-container{
+        width: 100%;
+    }
+    .team-row{
+        margin-right: 0;
+    }
+    .my-projects-ratings{
+        float: none;
+    }
+    .panel.carousel-panel{
+        margin-top:45px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .my-projects-ratings {
+        margin-top: 15px;
+    }
+    .my-projects-row .user-pro-img,
+    .my-projects-row .user-pro-img-count{
+        margin-top: 10px;
+    }
+    .row.carousel-row .col-sm-4.swap-fl{
+        float: right;
+    }
+    .row.carousel-row .col-sm-8.swap-fl{
+        float: right;
+    }
+    .row.profile-image-wrap{
+        position: static;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    #myCarousel .col-sm-4{
+        width: auto;
+    }
+    .rate-detail .col-sm-2{
+        width: 100%;
+    }
+    .card .card-content {
+        padding: 0 3px;
+    }
+} 
+@media screen and (min-width:992px) and (max-width:1200px){
+    .card.custom-card1 .card-image .pro-img-round {
+        height: 70px;
+        width: 70px;
+    }
+} 
